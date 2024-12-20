@@ -203,8 +203,8 @@ if len(al) != before_drop:
 # pull ml samples
 # =============================================================================
 # =============================================================================
-train = pd.read_csv('C:/Users/dfras/.spyder-py3/Sleep Research/samples/training_raw.csv')
-test = pd.read_csv('C:/Users/dfras/.spyder-py3/Sleep Research/samples/test_raw.csv')
+train = pd.read_csv('PATH/training_raw.csv')
+test = pd.read_csv('PATH/test_raw.csv')
 # =============================================================================
 # =============================================================================
 # =============================================================================
