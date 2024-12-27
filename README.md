@@ -1,12 +1,31 @@
 # ML_Algo_Selection
+#
+## How is machine learning best used in sleep science?
 
-This repo displays a small amount of code I wrote while working as a Machine Learning Engineer at the 
-Center for Sleep and Circadian Science.
+With multi-modal data: actigraphy (watch) data, survey data, etc... 
+machine learning has proven to be a powerful tool for processing millions 
+of data points and extracting meaningful insights.
 
-All the data is private, but I have listed a few csv's that may help get an idea on what the real data could have looked like.
+## Which algorithm should be used?
 
-Here is a poster that Dr. Bradley Wheeler created! And we presented together at the The Center for Sleep and Circadian
-Science Research Day 2024 :)
+Machine learning is roughly separable into 3 classes:
+- Linear
+- Non-Linear
+- Deep Learning
+
+In this project, we explore the limitations and trade-offs of each style of algorithm.
+
+
+
+## Data Disclaimer:
+
+All the data is private, but I have listed a few CSV files that may help get an idea 
+of what the real data could have looked like.
+#
+
+Here is a poster that Dr. Bradley Wheeler created! We presented together at 
+**The Center for Sleep and Circadian
+Science Research Day 2024.** :)
 
 ![Poster Preview](poster.png)
 
