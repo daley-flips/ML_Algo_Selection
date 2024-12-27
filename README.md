@@ -53,6 +53,9 @@ model can perform on unseen data.
    - Shannon Entropy 
    - Standard Deviation
 
+Deep learning models (we used an LSTM) do not require this extraction, as the tensors can
+be directly input into the model.
+
 ### preprocessing/cleaning/
 Code that created PyTorch tensors and compiled all survey data per study participant.
 
@@ -69,9 +72,10 @@ PCA as well as the suite of models provided by scikit-learn.
 ### machine_learning/testing
 PCA repeated including test data (**pca_all.py**)
 
-**all_models.py** a systematic way to train, validate, and test our final models.
-This script includes the final parameters decided from tuning and removes inputs one-by-one
-to determine the feature importance. The script also tracks the training time for each model.
+**all_models.py** a systematic way to train, validate, and test our final models:
+- includes the final parameters decided from tuning
+- removes inputs one-by-one to determine the feature importance. 
+- tracks the training time for each model.
 - built to be dynamic (and save me time) as more models are added throughout the development process
 
 
