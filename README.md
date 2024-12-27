@@ -45,7 +45,7 @@ model can perform on unseen data.
 ## preprocessing/
 
 ### preprocessing/statistics.py
-- For linear and non-linear models, feature extraction was performed an then put into the models, rather than the raw data points. this script pulls PyTorch tensor data into sci-kit learn "friendly" data based on the following statistical variables:
+- For linear and non-linear models, feature extraction was performed and then put into the models, rather than the raw data points. this script pulls PyTorch tensor data into sci-kit learn "friendly" data based on the following statistical variables:
    - Mean
    - Max
    - Kurtosis
