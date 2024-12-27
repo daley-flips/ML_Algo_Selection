@@ -72,11 +72,11 @@ PCA as well as the suite of models provided by scikit-learn.
 ### machine_learning/testing
 PCA repeated including test data (**pca_all.py**)
 
-**all_models.py** a systematic way to train, validate, and test our final models:
-- includes the final parameters decided from tuning
+**all_models.py** is a systematic way to train, validate, and test our final models:
+- includes the final parameters decided from tuning.
 - removes inputs one-by-one to determine the feature importance. 
 - tracks the training time for each model.
-- built to be dynamic (and save me time) as more models are added throughout the development process
+- built to be dynamic (and save me time) as more models are added throughout the development process.
 
 
 
