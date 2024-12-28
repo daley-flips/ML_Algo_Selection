@@ -64,7 +64,7 @@ Code that created PyTorch tensors and compiled all survey data per study partici
 distribution was similar across datasets was crucial, and more importantly the outcome
 distribution. Ensuring a roughly equal split between 0s and 1s for each set.
 
-# machine_learning/
+## machine_learning/
 
 ### machine_learning/tuning
 PCA as well as the suite of models provided by scikit-learn.
